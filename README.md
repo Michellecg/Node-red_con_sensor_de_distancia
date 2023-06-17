@@ -31,7 +31,6 @@ Para realizar esta práctica se ocuparon las siguientes herramientas y component
 
 2. Ingresar a la página de [emqx](https://www.emqx.com/en/mqtt/public-mqtt5-broker), el cual es un servidor público para la generación de IP, que se ocupa para el bloque del paso anterior.
 
-
 3. Abrir una nueva terminal (no es necesario ejecutar como administrador) para la generación de IP. A continuación, escribir ```nslookup broker.emqx.io```
 
 4. Copiar la IP ```44.195.202.69```, porteriormente dirigirse al ```localhost:1880```, hacer *doble click* en **mqtt in**, en el apartado *Server*, hacer click en el ícono de lápiz y pegar en el *Server*. Cambiar el nombre del bloque en *Topic*, en este caso se utilizó el nombre de "MichelleCG".
@@ -213,7 +212,7 @@ Al primer grupo creado, modificar el nombre a _Gráficos_ y el segundo _Indicado
 
 ![](https://github.com/Michellecg/Node-red_con_sensor_de_distancia/blob/main/Prop_ind.PNG)
 
-14. Modificar el bloque **chart** haciendo _doble click_. En las propiedades cambiar el apartado **Group** y elegir el grupo de _Gráficos_, cambiar el nombre a **Temperatura y humedad** y el rango del eje Y.
+14. Modificar el bloque **chart** haciendo _doble click_. En las propiedades cambiar el apartado **Group** y elegir el grupo de _Gráficos_, cambiar el nombre a **Distancia** y el rango del eje Y.
 
 ![](https://github.com/Michellecg/Node-red_con_sensor_de_distancia/blob/main/Prop_graf.PNG)
 
